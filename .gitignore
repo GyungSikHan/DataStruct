@@ -402,3 +402,6 @@ FodyWeavers.xsd
 *.dotCover
 *.sln.DotSettings
 *.sln.DotSettings.user
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/tasks.json
