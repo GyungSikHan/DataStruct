@@ -31,11 +31,20 @@
     <ClCompile Include="02.List\01_STLArray.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="02.List\02_Execute.cpp" />
-    <ClCompile Include="02.List\02_LinkedList.cpp" />
+    <ClCompile Include="02.List\02_Execute.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="02.List\02_LinkedList.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="03.DoublyLinkedList\DoublyLinkedLisk.cpp" />
+    <ClCompile Include="03.DoublyLinkedList\Execute.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="02.List\02_LinkedList.h" />
+    <ClInclude Include="02.List\02_LinkedList.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="03.DoublyLinkedList\DoublyLinkedLisk.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
