@@ -1,28 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="01.Template\3_VirtualClassTemplate.cpp">
-      <Filter>01.Template</Filter>
-    </ClCompile>
-    <ClCompile Include="01.Template\1_template.cpp">
-      <Filter>01.Template</Filter>
-    </ClCompile>
-    <ClCompile Include="01.Template\2_ClassTemplate.cpp">
-      <Filter>01.Template</Filter>
-    </ClCompile>
-    <ClCompile Include="02.List\01_STLArray.cpp">
-      <Filter>02.List</Filter>
-    </ClCompile>
-    <ClCompile Include="02.List\02_Execute.cpp">
-      <Filter>02.List</Filter>
-    </ClCompile>
-    <ClCompile Include="02.List\02_LinkedList.cpp">
-      <Filter>02.List</Filter>
-    </ClCompile>
-    <ClCompile Include="03.DoublyLinkedList\Execute.cpp">
+    <ClCompile Include="03.DoublyLinkedList\DoublyLinkedLisk.cpp">
       <Filter>03.DoublyLinkedList</Filter>
     </ClCompile>
-    <ClCompile Include="03.DoublyLinkedList\DoublyLinkedLisk.cpp">
+    <ClCompile Include="03.DoublyLinkedList\Execute.cpp">
       <Filter>03.DoublyLinkedList</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,9 +20,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="02.List\02_LinkedList.h">
-      <Filter>02.List</Filter>
-    </ClInclude>
     <ClInclude Include="03.DoublyLinkedList\DoublyLinkedLisk.h">
       <Filter>03.DoublyLinkedList</Filter>
     </ClInclude>

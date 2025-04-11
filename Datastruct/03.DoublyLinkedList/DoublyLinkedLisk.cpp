@@ -45,17 +45,17 @@ void Insert(Node* current, Node* node)
     current->NextNode = node;
 }
 
-//void InsertHead(Node** current, Node* head)
-//{
-//    if (*current == nullptr)
-//        *current = head;
-//    else
-//    {
-//        head->NextNode = *current;
-//        *current = head;
-//    }
-//}
-//
+void InsertHead(Node** current, Node* head)
+{
+    if (*current == nullptr)
+        *current = head;
+    else
+    {
+        head->NextNode = *current;
+        *current = head;
+    }
+}
+
 //void Remove(Node** head, Node* remove)
 //{
 //    if (*head == remove)
