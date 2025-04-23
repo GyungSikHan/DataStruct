@@ -7,6 +7,30 @@
     <ClCompile Include="03.DoublyLinkedList\Execute.cpp">
       <Filter>03.DoublyLinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="01.Template\1_template.cpp">
+      <Filter>01.Template</Filter>
+    </ClCompile>
+    <ClCompile Include="01.Template\2_ClassTemplate.cpp">
+      <Filter>01.Template</Filter>
+    </ClCompile>
+    <ClCompile Include="01.Template\3_VirtualClassTemplate.cpp">
+      <Filter>01.Template</Filter>
+    </ClCompile>
+    <ClCompile Include="02.List\01_STLArray.cpp">
+      <Filter>02.List</Filter>
+    </ClCompile>
+    <ClCompile Include="02.List\02_Execute.cpp">
+      <Filter>02.List</Filter>
+    </ClCompile>
+    <ClCompile Include="02.List\02_LinkedList.cpp">
+      <Filter>02.List</Filter>
+    </ClCompile>
+    <ClCompile Include="04.Stack\Execute.cpp">
+      <Filter>04.Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="Stack.cpp">
+      <Filter>04.Stack</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="02.List">
@@ -18,10 +42,19 @@
     <Filter Include="03.DoublyLinkedList">
       <UniqueIdentifier>{da402ff0-86ac-45ef-89c0-e3973d7d2135}</UniqueIdentifier>
     </Filter>
+    <Filter Include="04.Stack">
+      <UniqueIdentifier>{0ec77565-4c00-40d3-b738-73bda67ba011}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="03.DoublyLinkedList\DoublyLinkedLisk.h">
       <Filter>03.DoublyLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="02.List\02_LinkedList.h">
+      <Filter>02.List</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>04.Stack</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
